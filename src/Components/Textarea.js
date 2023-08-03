@@ -24,11 +24,12 @@ export default function Textform(props) {
    }
    const count=(text)=>{
      let nofwords=text.split(" ").length
-     if(nofwords==1){
+     if(nofwords===1){
       nofwords=text.split(" ").length-1;
       return nofwords;
      }
-     else if(text.split(" ").length==" ");{
+     else if(text.split(" ").length===" ")
+     {
      return nofwords-1;
      }
     
